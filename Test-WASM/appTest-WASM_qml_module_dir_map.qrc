@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Test-WASM">/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/Test-WASM</file>
-
-  </qresource>
-</RCC>
