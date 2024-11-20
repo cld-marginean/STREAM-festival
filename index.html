@@ -23,7 +23,7 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
   </head>
   <body onload="init()">
     <figure style="overflow:visible;" id="qtspinner">
-      <center style="margin-top:1.5em; line-height:150%">
+      <center style="z-index: 1; margin-top:1.5em; line-height:150%">
         <img src="qtlogo.svg" width="320" height="200" style="display:block"></img>
         <strong>Qt for WebAssembly: appSTREAMFestival</strong>
         <div id="qtstatus"></div>
@@ -31,15 +31,16 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
       </center>
     </figure>
 
-
-    <div id="screen">
-    <div style="width:500px;height:400px;padding:100 0 100 0;position:relative;">
+    <div style="top:85px;left:40%;width:640px;height:360px;z-index:4;position:absolute;">
       <iframe src="https://player.vimeo.com/video/971466048?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="fullscreen;" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="STREAM Science Festival @ The Romanian Day / Ziua Românească Eindhoven 2024">
       </iframe>
     </div>
-</div>
+    <div id="screen">
+    </div>
+<!--
 
-<!--<script src="https://player.vimeo.com/api/player.js"></script>-->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+-->
 
     <script type="text/javascript">
         async function init()
@@ -50,9 +51,11 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
 
             const showUi = (ui) => {
                 [spinner, screen].forEach(element => element.style.display = 'none');
-                if (screen === ui)
+                if (screen === ui) {
                     screen.style.position = 'default';
+                }
                 ui.style.display = 'block';
+                ui.style.zIndex = '1';
             }
 
             try {
