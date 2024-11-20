@@ -1,0 +1,223 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 24.1.0 - x86_64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:136 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-WuHuQJ"
+      binary: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-WuHuQJ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-WuHuQJ'
+        
+        Run Build Command(s): /Users/claudia_marginean/Qt/Tools/Ninja/ninja -v cmTC_4a664
+        [1/2] /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_4a664.dir/src.cxx.o -MF CMakeFiles/cmTC_4a664.dir/src.cxx.o.d -o CMakeFiles/cmTC_4a664.dir/src.cxx.o -c /Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-WuHuQJ/src.cxx
+        [2/2] : && /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_4a664.dir/src.cxx.o -o cmTC_4a664.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:143 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:43 (_qt_internal_find_qt_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-Q9JWj8"
+      binary: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-Q9JWj8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-Q9JWj8'
+        
+        Run Build Command(s): /Users/claudia_marginean/Qt/Tools/Ninja/ninja -v cmTC_cfd19
+        [1/2] /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++ -DHAVE_STDATOMIC  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_cfd19.dir/src.cxx.o -MF CMakeFiles/cmTC_cfd19.dir/src.cxx.o.d -o CMakeFiles/cmTC_cfd19.dir/src.cxx.o -c /Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-Q9JWj8/src.cxx
+        [2/2] : && /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_cfd19.dir/src.cxx.o -o cmTC_cfd19.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:23 (check_cxx_source_compiles)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:143 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:43 (_qt_internal_find_qt_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_GETTIME"
+    directories:
+      source: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-KSSbD7"
+      binary: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-KSSbD7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-KSSbD7'
+        
+        Run Build Command(s): /Users/claudia_marginean/Qt/Tools/Ninja/ninja -v cmTC_7d7d2
+        [1/2] /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++ -DHAVE_GETTIME  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_7d7d2.dir/src.cxx.o -MF CMakeFiles/cmTC_7d7d2.dir/src.cxx.o.d -o CMakeFiles/cmTC_7d7d2.dir/src.cxx.o -c /Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-KSSbD7/src.cxx
+        [2/2] : && /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_7d7d2.dir/src.cxx.o -o cmTC_7d7d2.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:34 (check_cxx_source_compiles)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:143 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:43 (_qt_internal_find_qt_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_SHM_OPEN_SHM_UNLINK"
+    directories:
+      source: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-0GEiFE"
+      binary: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-0GEiFE"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_SHM_OPEN_SHM_UNLINK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-0GEiFE'
+        
+        Run Build Command(s): /Users/claudia_marginean/Qt/Tools/Ninja/ninja -v cmTC_4793a
+        [1/2] /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++ -DHAVE_SHM_OPEN_SHM_UNLINK  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_4793a.dir/src.cxx.o -MF CMakeFiles/cmTC_4793a.dir/src.cxx.o.d -o CMakeFiles/cmTC_4793a.dir/src.cxx.o -c /Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-0GEiFE/src.cxx
+        [2/2] : && /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_4793a.dir/src.cxx.o -o cmTC_4793a.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:127 (check_cxx_source_compiles)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:39 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "/Users/claudia_marginean/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:143 (find_dependency)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:43 (_qt_internal_find_qt_dependencies)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:181 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-1M4Q9B"
+      binary: "/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-1M4Q9B"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/claudia_marginean/Qt/6.8.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-1M4Q9B'
+        
+        Run Build Command(s): /Users/claudia_marginean/Qt/Tools/Ninja/ninja -v cmTC_8c5f1
+        [1/2] /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++ -DHAVE_EGL  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8c5f1.dir/src.cxx.o -MF CMakeFiles/cmTC_8c5f1.dir/src.cxx.o.d -o CMakeFiles/cmTC_8c5f1.dir/src.cxx.o -c /Users/claudia_marginean/qt/Test-WASM/build/WebAssembly_Qt_6_8_0_multi_threaded-MinSizeRel/CMakeFiles/CMakeScratch/TryCompile-1M4Q9B/src.cxx
+        [2/2] : && /Users/claudia_marginean/Documents/projects/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_8c5f1.dir/src.cxx.o -o cmTC_8c5f1.js   && :
+        
+      exitCode: 0
+...
